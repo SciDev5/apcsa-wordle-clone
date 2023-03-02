@@ -9,13 +9,12 @@ public class Main {
         P.ln();
         P.ln("░░░░░░ Welcome to Wordle ░░");
         P.ln();
-        P.ln(P.GREY_BG,P.WHITE," YELLOW ",P.RESET, " means 'wrong letter'");
+        P.ln(P.GREY_BG,P.WHITE," GRAY ",P.RESET, " means 'wrong letter'");
         P.ln(P.LIGHT_YELLOW_BG,P.YELLOW," YELLOW ",P.RESET, " means 'right letter, wrong position'");
         P.ln(P.LIGHT_CYAN_BG,P.CYAN," BLUE ",P.RESET, " means 'right letter, right position'");
         P.ln();
         P.ln("═".repeat(50));
 
-        boolean won = false;
         for (int i = 0; i < 6; i++) {
             String guess;
             while (true) {
